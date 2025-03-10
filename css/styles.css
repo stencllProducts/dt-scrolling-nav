@@ -42,6 +42,11 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --bs-primary-gradient: radial-gradient(87.72% 79.37% at 43.86% 109.28%, 
+    rgba(188, 246, 130, 0.90) 0%, 
+    rgba(229, 199, 255, 0.90) 21%, 
+    rgba(205, 203, 255, 0.90) 43%, 
+    rgba(247, 247, 247, 0.90) 100%);
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -79,6 +84,13 @@
   --bs-highlight-bg: #fff3cd;
 }
 
+.gradient-bg {
+  background: var(--bs-primary-gradient);
+  
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
 *,
 *::before,
 *::after {
