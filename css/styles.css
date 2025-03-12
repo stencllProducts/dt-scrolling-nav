@@ -10849,3 +10849,52 @@ section {
   padding-top: 9rem;
   padding-bottom: 9rem;
 }
+
+/* Plans Section */
+#plans {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  color: #333;
+}
+
+.card .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.card .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.bg-dark .btn-light {
+  color: #000;
+  background-color: #fff;
+}
+
+.bg-dark .btn-light:hover {
+  background-color: #e2e6ea;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-row {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .about-text, .about-image {
+      width: 100%;
+  }
+}
